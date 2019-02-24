@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/electronics"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_man"
+            android:icon="@drawable/boy"
+            android:title="Men"
+            />
+        <item
+            android:id="@+id/nav_woman"
+            android:icon="@drawable/girl"
+            android:title="Women" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_offfer"
+            android:icon="@drawable/offer_zone"
+            android:title="Offer Zone" />
+        <item
+            android:id="@+id/nav_arrival"
+            android:icon="@drawable/new_arr"
+            android:title="New Arrivals" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/shop"
+            android:title="Zaqon Fashion" />
+        <item
+            android:id="@+id/nav_Account"
+            android:icon="@drawable/account"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_start_selling"
+            android:icon="@drawable/start_selling"
+            android:title="Start Selling" />
+
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gift"
+            android:icon="@drawable/gift"
+            android:title="Gift Card" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/terms"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/user1"
+            android:title="Logout" />
+    </group>
+</menu>

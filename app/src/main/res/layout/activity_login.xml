@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    tools:context="com.myself.anjalimishra.zaqon.Activity.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        android:textSize="15pt"
+        android:textStyle="bold"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:textColorHint="#fff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/login_username"
+        android:hint="Username or email address *"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/login_pasword"
+            android:hint="Password"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:buttonTint="#fff"
+        android:textSize="7pt"
+        android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="7pt"
+            android:text="Lost your password?"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvvlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="8pt" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/reg_textview"
+        android:text="If you don't have account then Create account here."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="7pt"
+        android:textColorLink="#ff0037"
+        android:textColor="#fff"
+        />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.myself.anjalimishra.zaqon.Activity.Register">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="15pt"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:textColorHint="#fff">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/reg_username"
+            android:hint="Email address *"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/reg_pasword"
+            android:hint="Password"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="2">
+
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_customer"
+            android:buttonTint="#fff"
+            android:text="Customer"
+            android:layout_weight="1"
+        android:textColor="#fff"
+        />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_vender"
+            android:text="Vender"
+            android:layout_weight="1"
+            android:buttonTint="#fff"
+            android:textColor="#fff"
+            />
+    </RadioGroup>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/tvregis"
+            android:text="Register"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8pt" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Sign up today and you will be able to :"
+        android:textColor="#fff"
+        android:textSize="7pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Speed your way through checkout"
+        android:textColor="#fff"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Track your orders easily"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Keep a record of all your purchases"
+        android:textColor="#fff"
+       />
+</LinearLayout>
+
+</ScrollView>
